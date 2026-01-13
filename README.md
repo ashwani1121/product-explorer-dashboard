@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Project: Product Explorer Dashboard
 
-# Run and deploy your AI Studio app
+Create a web app that displays a list of products with filtering, detailed views, and a simple client-side state feature.
 
-This contains everything you need to run your app locally.
+Core Features (Required)
+1. Product Listing Page
+2. Search & Filtering
+3. Product Details Page
+4. Favorites Feature
+5. Responsive Design
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+Technical Requirements
+Must use:
+Next.js (App Router)
+TypeScript
+Tailwind CSS
+Architecture expectations:
+Typed API responses and props
+Reusable components
+Clean folder structure (e.g. components, lib, types)
+Proper error handling
+No any types unless justified
 
-## Run Locally
-
-**Prerequisites:**  Node.js
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
